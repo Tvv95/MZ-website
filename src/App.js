@@ -6,9 +6,6 @@ import Main from './Main/Main';
 import Footer from './Footer/Footer';
 
 class App extends React.Component {
-  constructor(props) {
-    super(props);
-  }
 
   render() {
     const patchList = this.props.patchList;

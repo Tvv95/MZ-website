@@ -1,0 +1,33 @@
+footer {
+    display: flex;
+    justify-content: space-between;
+    min-width: 900px;
+    width: 1280px;
+    margin: 0 auto;
+    margin-top: 75px;
+    padding-bottom: 30px;
+    flex: 0 0 auto;
+}
+
+.socials {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.youtube {
+    height: 25px;
+    margin-top: 7px;
+}
+
+.discord {
+    margin-left: 20px;
+    margin-top: 7px;
+    height: 30px;
+}
+
+.vk {
+    margin-left: 0px;
+    margin-top: -19px;
+    height: 75px;
+}

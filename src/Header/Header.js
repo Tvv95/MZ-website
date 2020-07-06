@@ -7,7 +7,7 @@ class Header extends React.Component {
   render() {
     return (
       <header className="main-header">
-        <img src="logo.jpg" alt="MODZADROT" className="main-header-logo" />
+        <a href="http://modzadrot.ru"><img src="logo.jpg" alt="MODZADROT" className="main-header-logo" /></a>
         <div className="button-container">
           <a download href="http://modzadrot.ru/MZ_Launcher.exe">Скачать лаунчер</a>
         </div>

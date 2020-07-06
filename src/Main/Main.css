@@ -15,8 +15,12 @@
     padding-bottom: 5px;
 }
 
+.tabs {
+    height: 100%;
+}
+
 .patchNumbList {
-    height: 470px;
+    height: 100%;
     overflow-y: auto;
     padding-left: 16px;
     padding-right: 16px;
@@ -35,18 +39,25 @@
     content: none;
 }
 
+.main-tab {
+    height: 100%;
+}
+
+.horTabs {
+    height: 90%;
+}
+
 .description {
-    height: 470px;
     padding: 10px;
     overflow-y: auto;
 }
 
-.description h2 {
+.horTabs h2 {
     text-align: center;
     margin-bottom: 20px;
 }
 
-.description h3 {
+.horTabs h3 {
     font-size: 20px;
     text-decoration: underline;
 }
@@ -55,26 +66,22 @@
     color: #ffffff;
 }
 
-.defaultTab {
-    color: red;
-}
-
 ::-webkit-scrollbar
 {
-	width: 10px;
-	background-color: #F5F5F5;
+	width: 8px;
+	background-color: #808080;
 }
 
 ::-webkit-scrollbar-track
 {
     box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
 	border-radius: 10px;
-	background-color: #F5F5F5;
+	background-color: #808080;
 }
 
 ::-webkit-scrollbar-thumb
 {
 	border-radius: 10px;
 	box-shadow: inset 0 0 6px rgba(0,0,0,.3);
-	background-color: #555;
+	background-color: #474847;
 }

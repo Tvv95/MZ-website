@@ -16,20 +16,20 @@ class Main extends React.Component {
             <Tab tabFor="hor-tab-two" className="tabHeader">Патчноты</Tab>
           </TabList>
 
-          <TabPanel tabId="hor-tab-one" className='description'>
+          <TabPanel tabId="hor-tab-one" className='description horTabs'>
             {description}
           </TabPanel>
 
-          <TabPanel tabId="hor-tab-two">
-            <Tabs defaultTab="vert-tab-one" className="tabs" vertical>
+          <TabPanel tabId="hor-tab-two" className='horTabs'>
+            <Tabs defaultTab="vert-tab-0" className="tabs" vertical>
               <TabList className='patchNumbList'>
-                {Object.keys(patchList).map(current => {
-                  return <Tab tabFor={current} className="patches" key={current}>{current}</Tab>;
+                {Object.keys(patchList).map((current, index) => {
+                  return <Tab tabFor={`vert-tab-${index}`} className="patches" key={current}>{current}</Tab>;
                 })}
               </TabList>
-              {Object.entries(patchList).map(current => {
+              {Object.entries(patchList).map((current, index) => {
                 return (
-                  <TabPanel tabId={current[0]} key={current[0]} className='description'>
+                  <TabPanel tabId={`vert-tab-${index}`} key={current[0]} className='description'>
                     {current[1]}
                   </TabPanel>
                 );

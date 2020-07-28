@@ -1,18 +1,24 @@
 .tabContainer {
-    min-width: 900px;
-    width: 1280px;
+    width: 67%;
     margin: 0 auto;
     color: #ffffff;
     border: 40px solid transparent;
     border-image: url(../assets/clipart-border-medieval-8.png) 15% round;
     padding: 10px;
     padding-top: 0px;
-    height: 600px;
+    height: 60vh;
     flex: 1 0 auto;
+    /*scrollbal for Mozilla*/
+    scrollbar-color: #474847 #808080;
+    scrollbar-width: thin;
 }
 
 .mainThemes {
     padding-bottom: 5px;
+}
+
+.mainThemes{
+    border-bottom: 1px solid #474747 !important;
 }
 
 .tabs {
@@ -26,6 +32,7 @@
     padding-right: 16px;
     margin-top: 5px;
     width: 15%;
+    border: 0px !important;
 }
 
 .patchNumbList button[aria-selected="true"], .mainThemes button[aria-selected="true"] {
@@ -49,6 +56,7 @@
 
 .description {
     padding: 10px;
+    padding-top: 15px;
     overflow-y: auto;
 }
 

@@ -1,8 +1,7 @@
 footer {
     display: flex;
     justify-content: space-between;
-    min-width: 900px;
-    width: 1280px;
+    width: 64%;
     margin: 0 auto;
     margin-top: 75px;
     padding-bottom: 30px;
@@ -29,5 +28,6 @@ footer {
 .vk {
     margin-left: 0px;
     margin-top: -19px;
+    margin-right: -19px;
     height: 75px;
 }

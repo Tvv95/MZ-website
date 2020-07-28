@@ -1,8 +1,7 @@
 .main-header {
     display: flex;
     justify-content: space-between;
-    min-width: 900px;
-    width: 1280px;
+    width: 64%;
     margin: 0 auto;
     flex: 0 0 auto;
     z-index: 0;
@@ -11,8 +10,6 @@
 .main-header-logo {
     width: 154px;
     height: 170px;
-    margin-top: 9px;
-    margin-left: 27px;
 }
 
 .button-container a {
@@ -25,8 +22,7 @@
     border: 1px solid;
     border-image: linear-gradient(180deg, #ff3000, #ed0200, #ff096c, #d50082);
     border-image-slice: 1;
-    margin: 10px 20px;
-    margin-top: 68px;
+    margin-top: 60px;
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
     overflow: hidden;

@@ -15,9 +15,6 @@
 
 .mainThemes {
     padding-bottom: 5px;
-}
-
-.mainThemes{
     border-bottom: 1px solid #474747 !important;
 }
 
@@ -32,8 +29,17 @@
     padding-right: 16px;
     margin-top: 5px;
     min-width: 10%;
-    width: 15%;
+    width: 12%;
     border: 0px !important;
+}
+
+.patchNumbList, ::after, ::before {
+    box-sizing: content-box;
+}
+
+.patches {
+    margin-left: -15px;
+    margin-right: -15px;
 }
 
 .patchNumbList button[aria-selected="true"], .mainThemes button[aria-selected="true"] {

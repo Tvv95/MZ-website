@@ -1,16 +1,23 @@
 .tabContainer {
-    width: 67%;
+    height: 65%;
+    max-width: 100%;
+}
+
+.main-tab {
+    height: 100%;
+    max-width: 1280px;
     margin: 0 auto;
-    color: #ffffff;
+    color: #e5e5e5;
     border: 40px solid transparent;
     border-image: url(../assets/clipart-border-medieval-8.png) 15% round;
     padding: 10px;
+    padding-bottom: 5px;
     padding-top: 0px;
-    height: 60vh;
     flex: 1 0 auto;
     /*scrollbal for Mozilla*/
     scrollbar-color: #474847 #808080;
     scrollbar-width: thin;
+    overflow: hidden;
 }
 
 .mainThemes {
@@ -23,13 +30,11 @@
 }
 
 .patchNumbList {
-    height: 100%;
+    height: 97%;
     overflow-y: auto;
     padding-left: 16px;
     padding-right: 16px;
-    margin-top: 5px;
-    min-width: 10%;
-    width: 12%;
+    max-width: 25%;
     border: 0px !important;
 }
 
@@ -53,15 +58,12 @@
     content: none;
 }
 
-.main-tab {
-    height: 100%;
-}
-
 .horTabs {
     height: 90%;
 }
 
 .description {
+    height: 97%;
     padding: 10px;
     padding-top: 15px;
     overflow-y: auto;
@@ -78,25 +80,53 @@
 }
 
 .tabHeader, .patches {
-    color: #ffffff;
+    color: #e5e5e5;
 }
 
-::-webkit-scrollbar
-{
-	width: 8px;
-	background-color: #808080;
+@media (max-width: 992px) {
+    .tabContainer {
+        max-width: 750px;
+        margin: 0 auto;
+    }
 }
 
-::-webkit-scrollbar-track
-{
-    box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
-	border-radius: 10px;
-	background-color: #808080;
+@media (max-width: 767px) {
+    .tabContainer {
+        max-width: 100%;
+    }
+    .main-tab {
+        padding: 0;
+        padding-bottom: 10px;
+        border-width: 20px;
+    }
+    .tabHeader {
+        padding: 17px !important;
+    }
+    .description h2 {
+        font-size: 20px;
+    }
+    .description h3 {
+        font-size: 15px;
+    }
+    .patches {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
 }
 
-::-webkit-scrollbar-thumb
-{
-	border-radius: 10px;
-	box-shadow: inset 0 0 6px rgba(0,0,0,.3);
-	background-color: #474847;
+::-webkit-scrollbar {
+    width: 8px;
+    background-color: #808080;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    background-color: #808080;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+    background-color: #474847;
 }

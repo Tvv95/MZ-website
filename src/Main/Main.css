@@ -69,6 +69,10 @@
     overflow-y: auto;
 }
 
+.description2 {
+    padding-bottom: 15px;
+}
+
 .horTabs h2 {
     text-align: center;
     margin-bottom: 20px;

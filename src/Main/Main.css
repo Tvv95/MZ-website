@@ -34,6 +34,7 @@
     overflow-y: auto;
     padding-left: 16px;
     padding-right: 16px;
+    padding-bottom: 10px;
     max-width: 25%;
     border: 0px !important;
 }

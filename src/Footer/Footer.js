@@ -11,19 +11,19 @@ class Footer extends React.Component {
       <footer>
         <h2>Красиво! Реалистично! Хардкорно!</h2>
         <ul className="socials">
-          <li>
+          <li className="youtube">
             <a href="https://www.youtube.com/channel/UCmuEKdGhyftEuZ6X7bFYEqg/">
-              <img src={youtube} className="socials youtube" alt="Youtube" />
+              <img src={youtube} alt="Youtube" />
             </a>
           </li>
-          <li>
+          <li className="discord">
             <a href="https://discord.com/invite/pWdwt9u">
-              <img src={discord} className="socials discord" alt="Discord" />
+              <img src={discord} alt="Discord" />
             </a>
           </li>
-          <li>
+          <li className="vk">
             <a href="https://vk.com/modzadrot76">
-              <img src={vk} className="socials vk" alt="VK" />
+              <img src={vk} alt="VK" />
             </a>
           </li>
         </ul>

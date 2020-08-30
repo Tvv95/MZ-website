@@ -56,18 +56,26 @@ footer h2 {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
-.youtube {
-    height: 25px;
+.youtube img {
+    height: 26px;
     margin-right: 20px;
 }
 
-.discord {
-    height: 30px;
+/*Fix for IE*/
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    .discord {
+        min-width: 30%;
+    }
 }
 
-.vk {
-    height: 75px;
+.discord img {
+    height: 30px;
+    margin-top: 5px;
+}
+
+.vk img {
+    height: 74px;
 }

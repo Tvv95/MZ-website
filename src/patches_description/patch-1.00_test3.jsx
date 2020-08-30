@@ -3,7 +3,7 @@ import React from 'react';
 const Patch10test3 = () => {
     return (
         <div>
-            <h2>Change-log версии 1.00_test</h2>
+            <h2>Change-log версии 1.00_test3</h2>
             <p>Cтруктура сборки изменена и оптимизирована.</p>
             <p>Данное обновление состоит из трех частей</p>
             <h3>1.00-test3-test</h3>

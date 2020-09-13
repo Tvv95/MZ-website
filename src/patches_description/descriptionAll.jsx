@@ -4,7 +4,8 @@ const DescriptionAll = () => {
     return (
         <div className="description2">
             <p>ПРЕЖДЕ ЧЕМ УСТАНАВЛИВАТЬ СБОРКУ ОБЯЗАТЕЛЬНО ПОСМОТРИТЕ ЭТОТ ВИДЕО-ГАЙД ПО УСТАНОВКЕ:</p>
-            <iframe title="install-guide" width="65%" height="315" src="https://www.youtube.com/embed/0iLD7aYbZ-c" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+            <iframe title="install-guide" width="65%" height="350" src="https://www.youtube.com/embed/wZGyU6l4cDE" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+            <p>Более подробная установка: <a href="https://youtu.be/0iLD7aYbZ-c">https://youtu.be/0iLD7aYbZ-c</a></p>
             <p>Данный сайт мы ещё не успели доделать до конца (изменим дизайн и оформление), но он уже сейчас, можно сказать, полноценно функционирует и с изменениями в ченджлогах обновлений можно ознакамливаться.</p>
             <p>Подробный текстовый мануал и видео обзоры сборки мы сделаем позже, вы нас извините, на всё не хватает рук и времени, нас всего 5-7 человек.</p>
             <p>В сборку уже можно полноценно играть. Правки мелких ошибок или недочётов происходят каждый день и мы выпускаем обновлений раз в один-два дня.</p>

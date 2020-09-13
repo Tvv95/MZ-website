@@ -3,7 +3,6 @@ import React from 'react';
 const DescriptionAll = () => {
     return (
         <div className="description2">
-            <h2>ОПИСАНИЕ СБОРКИ:</h2>
             <p>ПРЕЖДЕ ЧЕМ УСТАНАВЛИВАТЬ СБОРКУ ОБЯЗАТЕЛЬНО ПОСМОТРИТЕ ЭТОТ ВИДЕО-ГАЙД ПО УСТАНОВКЕ:</p>
             <iframe title="install-guide" width="65%" height="315" src="https://www.youtube.com/embed/0iLD7aYbZ-c" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
             <p>Данный сайт мы ещё не успели доделать до конца (изменим дизайн и оформление), но он уже сейчас, можно сказать, полноценно функционирует и с изменениями в ченджлогах обновлений можно ознакамливаться.</p>

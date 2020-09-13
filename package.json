@@ -12,7 +12,8 @@
     "react-bootstrap": "^1.0.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1",
-    "react-web-tabs": "^1.0.1"
+    "react-web-tabs": "^1.0.1",
+    "react-yandex-metrika": "^2.6.0"
   },
   "scripts": {
     "start": "react-scripts start",

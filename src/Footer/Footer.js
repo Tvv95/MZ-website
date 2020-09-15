@@ -12,7 +12,7 @@ class Footer extends React.Component {
         <h2>Красиво! Реалистично! Хардкорно!</h2>
         <ul className="socials">
           <li className="youtube">
-            <a href="https://www.youtube.com/channel/UCmuEKdGhyftEuZ6X7bFYEqg/">
+            <a href="https://www.youtube.com/channel/UCHmm0OM8MNT5Mle9Dt9C6Cg">
               <img src={youtube} alt="Youtube" />
             </a>
           </li>

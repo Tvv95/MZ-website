@@ -15,8 +15,10 @@ import Patch10test4 from './patch-1.00_test4';
 import Patch10test5 from './patch-1.00_test5';
 import Patch10 from './patch-1.00';
 import Patch101 from './patch-1.01';
+import Patch101a from './patch-1.01a';
 
 const patches = {
+    '1.01a': <Patch101a />,
     '1.01': <Patch101 />,
     '1.00': <Patch10 />,
     '1.00_test5': <Patch10test5 />,

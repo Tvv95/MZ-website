@@ -4,6 +4,7 @@ const Patch101b = () => {
     return (
         <div>
             <h2>Change-log версии 1.01b</h2>
+            <time className='mainTime'>21 сентября 2к20</time>
             <h3>БАЛАНС:</h3>
             <ol>
                 <li>Уменьшен вес всех шкур в 4 раза</li>

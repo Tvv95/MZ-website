@@ -13,7 +13,7 @@ class Main extends React.Component {
         <Tabs defaultTab="hor-tab-one" className="tabs main-tab">
           <TabList className="mainThemes">
             <Tab tabFor="hor-tab-one" className="tabHeader">Описание сборки</Tab>
-            <Tab tabFor="hor-tab-two" className="tabHeader">Патчноты</Tab>
+            <Tab tabFor="hor-tab-two" className="tabHeader">Changelogs</Tab>
           </TabList>
 
           <TabPanel tabId="hor-tab-one" className='description horTabs'>

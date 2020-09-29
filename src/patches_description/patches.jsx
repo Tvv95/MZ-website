@@ -18,8 +18,10 @@ import Patch101 from './patch-1.01';
 import Patch101a from './patch-1.01a';
 import Patch101b from './patch-1.01b';
 import Patch101c from './patch-1.01c';
+import Patch101d from './patch-1.01d';
 
 const patches = {
+    '1.01d': <Patch101d />,
     '1.01c': <Patch101c />,
     '1.01b': <Patch101b />,
     '1.01a': <Patch101a />,

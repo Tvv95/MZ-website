@@ -21,8 +21,10 @@ import Patch101c from './patch-1.01c';
 import Patch101d from './patch-1.01d';
 import Patch101e from './patch-1.01e';
 import Patch102 from './patch-1.02';
+import Patch102a from './patch-1.02a'
 
 const patches = {
+    '1.02a': <Patch102a />,
     '1.02': <Patch102 />,
     '1.01e': <Patch101e />,
     '1.01d': <Patch101d />,

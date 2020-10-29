@@ -1,1 +1,1 @@
-http://modzadrot.ru/
+https://modzadrot.ru/

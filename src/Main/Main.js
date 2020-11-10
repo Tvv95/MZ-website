@@ -22,7 +22,7 @@ class Main extends React.Component {
   }
 
   componentDidMount() {
-    fetch('./patches/patchList.json')
+    fetch('./patchList/patchList.json')
       .then(response => response.json())
       .then(patchNames => {
         this.setState({ patchNames: Object.keys(patchNames) });
